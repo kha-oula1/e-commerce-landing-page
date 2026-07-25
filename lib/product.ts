@@ -13,6 +13,13 @@ export const product = {
     { label: 'Control', value: 'App + dial' },
     { label: 'Finish', value: 'Matte clay' },
   ],
+  rating: 4.9,
+  reviewCount: 1284,
+  testimonials: [
+    { name: 'Maya R.', rating: 5, quote: 'My coffee stays perfect from sunrise to my second meeting. Pure cozy magic.' },
+    { name: 'Devon L.', rating: 5, quote: 'Beautiful on my desk and genuinely useful. The last sip is as warm as the first.' },
+    { name: 'Priya S.', rating: 4, quote: 'Slow mornings feel a little more intentional now. Worth every penny.' },
+  ],
 } as const
 
 export function formatPrice(amount: number) {
