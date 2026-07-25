@@ -15,10 +15,10 @@ export function HeroView({ onShop }: { onShop: () => void }) {
         </span>
 
         <h1 className="font-serif text-[clamp(2.5rem,6vw,4.75rem)] leading-[0.95] font-light text-balance text-foreground">
-          Keep it{' '}
-          <span className="italic text-accent">warm</span>,
+          Welcome to{' '}
+          <span className="italic text-accent">My</span>
           <br />
-          all day long.
+          Store.
         </h1>
 
         <p className="mt-5 max-w-md text-pretty leading-relaxed text-muted-foreground">
